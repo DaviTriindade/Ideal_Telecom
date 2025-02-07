@@ -17,13 +17,13 @@ export const metadata: Metadata = {
   description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
 
   openGraph: {
-    title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+    title: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
     description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
-    url: "",
+    url: "https://ideal-telecom-davi-trindades-projects.vercel.app/", 
     siteName: "Ideal Telecom",
     images: [
       {
-        url: "/../public/thumb.png",
+        url: "/thumb.png", 
         alt: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
       },
     ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
     description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
-    images: ["/../public/thumb.png"],
+    images: ["/thumb.png"], 
   },
 };
 
