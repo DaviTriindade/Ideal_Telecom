@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
     description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
-    images: ["/idealtelecom-thumbnail.jpg"],
+    images: ["/../public/thumb.png"],
   },
 };
 
