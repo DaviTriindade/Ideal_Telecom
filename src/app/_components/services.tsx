@@ -6,7 +6,7 @@ import { WhatsappLogo } from "@phosphor-icons/react";
 
 const services = [
   {
-    title: "Instalação de ar condicionado",
+    title: "Instalação de Ar Condicionado",
     description:
       "Realizamos a instalação profissional de sistemas de climatização para residências e empresas, garantindo eficiência, segurança e o melhor desempenho dos equipamentos.",
     icon: <Snowflake />,
