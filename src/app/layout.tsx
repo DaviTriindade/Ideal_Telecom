@@ -14,18 +14,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
-  description: "Especialistas em instalação e manutenção de ar-condicionado com qualidade e confiança.",
+  description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
 
   openGraph: {
     title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
-    description: "Especialistas em instalação e manutenção de ar-condicionado com qualidade e confiança.",
+    description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
     url: "",
     siteName: "Ideal Telecom",
     images: [
       {
         url: "/../public/idealtelecom-thumbnail.png",
-        width: 1200,
-        height: 630,
         alt: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
       },
     ],
@@ -34,8 +32,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
-    description: "Especialistas em instalação e manutenção de ar-condicionado com qualidade e confiança.",
+    title: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
+    description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
     images: ["/idealtelecom-thumbnail.jpg"],
   },
 };
