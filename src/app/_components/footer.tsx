@@ -2,7 +2,7 @@ import elgin from "../../../public/elgin.png";
 import consul from "../../../public/consul.png";
 import samsung from "../../../public/samsung.png";
 import midea from "../../../public/midea.png";
-import philco from "../../../public/philco.png";
+import fujitsu from "../../../public/fujitsu.png";
 import gree from "../../../public/gree.png";
 import Image from "next/image";
 import {
@@ -17,7 +17,7 @@ const brands = [
   { name: "Consul", logo: consul },
   { name: "Gree", logo: gree },
   { name: "Samsung", logo: samsung },
-  { name: "Philco", logo: philco },
+  { name: "Fujitsu", logo: fujitsu },
 ];
 
 export function Footer() {
