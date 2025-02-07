@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+  title: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
   description: "Especialistas em instalação e manutenção de ar condicionado com qualidade e confiança.",
 
   openGraph: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Ideal Telecom",
     images: [
       {
-        url: "/../public/idealtelecom-thumbnail.png",
+        url: "/../public/thumb.png",
         alt: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
       },
     ],
