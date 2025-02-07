@@ -13,8 +13,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ideal Telecom",
-  description: "Especialistas em instalação e manutenção de ar-condicionado.",
+  title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+  description: "Especialistas em instalação e manutenção de ar-condicionado com qualidade e confiança.",
+
+  openGraph: {
+    title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+    description: "Especialistas em instalação e manutenção de ar-condicionado com qualidade e confiança.",
+    url: "",
+    siteName: "Ideal Telecom",
+    images: [
+      {
+        url: "/idealtelecom-thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+    description: "Especialistas em instalação e manutenção de ar-condicionado com qualidade e confiança.",
+    images: ["/idealtelecom-thumbnail.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -24,6 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
