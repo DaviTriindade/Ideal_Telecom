@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     siteName: "Ideal Telecom",
     images: [
       {
-        url: "/idealtelecom-thumbnail.png",
+        url: "/../public/idealtelecom-thumbnail.png",
         width: 1200,
         height: 630,
-        alt: "Ideal Telecom - Instalação e Manutenção de Ar-Condicionado",
+        alt: "Ideal Telecom - Instalação e Manutenção de Ar Condicionado",
       },
     ],
     type: "website",
