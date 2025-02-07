@@ -52,7 +52,7 @@ export function Footer() {
             <p className="mb-4">
               Seu conforto é nossa prioridade, sua confiança é nossa garantia.
             </p>
-            <a href="https://wa.me/5511940375580?text=Olá vim pelo site e gostaria de mais informações" className="bg-green-500 px-4 py-2 rounded-md">
+            <a href="https://wa.me/5511940375580?text=Olá, vim pelo site e gostaria de mais informações" className="bg-green-500 px-4 py-2 rounded-md">
               Contato via WhatsApp
             </a>
           </div>

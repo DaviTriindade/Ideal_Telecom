@@ -5,7 +5,8 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="bg-[#346dd8] text-white  relative overflow-hidden">
+<section className="bg-gradient-to-r from-[#201ea1] to-[#346dd8] text-white relative overflow-hidden">
+
       <div>
         <Image
           src={bgImg}
@@ -26,7 +27,7 @@ export function Hero() {
               Sofrendo com o calor? Nós temos a solução!
             </p>
             <a
-              href="https://wa.me/5511940375580?text=Olá vim pelo site e gostaria de mais informações"
+              href="https://wa.me/5511940375580?text=Olá, vim pelo site e gostaria de mais informações"
               className="bg-green-500  px-5  py-2  rounded-md  font-semibold  flex  items-center  justify-center w-fit gap-2"
             >
               <WhatsappLogo className="w-5 h-5" />
