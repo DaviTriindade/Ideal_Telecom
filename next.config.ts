@@ -1,9 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export', 
-  basePath: '/Ideal_Telecom', 
-  trailingSlash: true, 
+  output: 'export',
+  images: {
+    unoptimized: true,  // Desabilita a otimização de imagens
+  },
 };
 
 export default nextConfig;
