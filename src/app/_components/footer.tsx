@@ -52,7 +52,10 @@ export function Footer() {
             <p className="mb-4">
               Seu conforto é nossa prioridade, sua confiança é nossa garantia.
             </p>
-            <a href="https://wa.me/5511940375580?text=Olá, vim pelo site e gostaria de mais informações" className="bg-green-500 px-4 py-2 rounded-md">
+            <a
+              href="https://wa.me/5511940375580?text=Olá, vim pelo site e gostaria de mais informações"
+              className="bg-green-500 px-4 py-2 rounded-md"
+            >
               Contato via WhatsApp
             </a>
           </div>
@@ -71,7 +74,10 @@ export function Footer() {
               <a href="#">
                 <FacebookLogo className="w-8 h-8" />
               </a>
-              <a href="https://www.instagram.com/idealtelecom24?igsh=ZGFsYmhtdXkwc3lz" target="_blank">
+              <a
+                href="https://www.instagram.com/idealtelecom24?igsh=ZGFsYmhtdXkwc3lz"
+                target="_blank"
+              >
                 <InstagramLogo className="w-8 h-8" />
               </a>
               <a href="#">
@@ -80,6 +86,13 @@ export function Footer() {
             </div>
           </div>
         </footer>
+
+        {/* Adicionando o texto "Desenvolvido por Davi Trindade" com link */}
+        <div className="text-center text-sm  mt-10">
+          <a href="#" className="text-white hover:underline">
+            Desenvolvido por <strong>Davi Trindade </strong>
+          </a>
+        </div>
       </div>
     </section>
   );
